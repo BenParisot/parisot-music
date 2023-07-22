@@ -3,6 +3,19 @@
 
 ## Application Overview
 
+### Requirements
+
+- Authenticates with BP Spotify account (login and connect to Spotify API using auth code with PKCE flow: https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow)
+- Uses Spotify Web Playback SDK for playback
+- Allows signed-in user to:
+    - view playlists
+    - sort playlists 
+    - search for playlists
+    - search
+        - for artists
+        - for album
+        - for song
+
 ## App Diagrams
 
 ## Notable Project Dependencies
